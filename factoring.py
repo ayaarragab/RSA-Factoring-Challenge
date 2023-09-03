@@ -7,3 +7,5 @@ def factor(n):
         if n % i == 0:
             print(f"{n}={n // i}*{i}")
             break
+    if n > 1:
+            print(f"{n}=1*{n}")
