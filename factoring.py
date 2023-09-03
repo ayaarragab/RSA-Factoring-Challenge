@@ -1,7 +1,5 @@
 #!/bin/usr/python3
 import math
-import numba as nb
-@nb.jit
 def factor(n):
     if n < 2:
         print(f"{n}=1*{n}")
