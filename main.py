@@ -8,3 +8,4 @@ while True:
         factor(int(number))
     else:
         break
+allNumbers.close()
